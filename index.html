@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sube</title>
+    <!-- HOJA ESTILOS -->
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__contenido">
+                <div class="header__logo">
+                    <a class="header__link" href="index.html">
+                        <img class="header__imagen" src="build/img/logo_sube_blanco.webp" alt="logo sube">
+                    </a>
+                    <a href="#" class="header__menu-bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+
+                <div class="header__sesion">
+                    <a href="sesion.html" class="header__enlace">Iniciar Sesion</a>
+                    <a href="cuenta.html" class="header__enlace">Crear Cuenta</a>
+                </div>
+            </div><!-- header__contenido -->
+        </div><!-- header__contenedor -->
+    </header>
+
+    <div class="hero">
+        <div class="hero__bg">
+            <div class="hero__contenedor">
+                <div class="hero__texto">
+                    <div class="hero__titulo">
+                        <h1 class="hero__heading">Desarrollamos la tecnología necesaria para simplificar y mejorar el acceso al <span>transporte público</span>.</h1>
+                        <a href="nosotros.html" class="hero__boton">Saber Mas</a>
+                    </div>
+                    
+                    <picture class="hero__imagen">
+                        <source srcset="build/img/sube-transparente-header.avif" type="image/avif">
+                        <source srcset="build/img/sube-transparente-header.webp" type="image/webp">
+                        <img src="build/img/sube-transparente-header.png" alt="imagen mano con sube">
+                    </picture>
+                </div><!-- hero__texto -->
+            </div><!-- hero__contenedor -->
+        </div><!-- hero__bg-->
+    </div><!-- hero -->
+
+    <section class="opciones">
+        <div class="opciones__contenedor">
+            <div class="opciones__grid">
+                <div class="opcion">
+                    <a href="sesion.html" class="opcion__enlace opcion__enlace--cuenta">
+                        <img class="opcion__imagen" src="build/img/login=icono.svg" alt="imagen icono">
+                    </a>
+                    <p class="opcion__texto">Ingresá a tu Cuenta</p>
+                </div>
+                <div class="opcion">
+                    <a href="#" class="opcion__enlace">
+                        <img class="opcion__imagen" src="build/img/pesos-icono.svg" alt="imagen icono">
+                    </a>
+                    <p class="opcion__texto">Cargala</p>
+                </div>
+                <div class="opcion">
+                    <a href="#" class="opcion__enlace">
+                        <img class="opcion__imagen" src="build/img/sube-icono.svg" alt="imagen icono">
+                    </a>
+                    <p class="opcion__texto">Conseguila</p>
+                </div>
+                <div class="opcion">
+                    <a href="#" class="opcion__enlace">
+                        <img class="opcion__imagen" src="build/img/chequeado-icono.svg" alt="imagen icono">
+                    </a>
+                    <p class="opcion__texto">Registrala</p>
+                </div>
+                <div class="opcion">
+                    <a href="#" class="opcion__enlace">
+                        <img class="opcion__imagen" src="build/img/celular-icono.svg" alt="imagen icono">
+                    </a>
+                    <p class="opcion__texto">Comprala Online</p>
+                </div><!-- opcion -->
+            </div><!-- opciones__grid-->
+
+            <div class="servicio" id="servicio-sube">
+                <div class="servicio__texto">
+                    <h3 class="servicio__heading">Conseguí tu tarjeta <span>SUBE</span></h3>
+                    <p class="servicio__parrafo"><a href="#">Comprala online</a> o encontrala en un <a href="#">Punto SUBE</a></p>
+                </div>
+            </div>
+        </div><!-- opciones__contenedor -->
+    </section><!-- opciones -->
+
+    <main class="servicios">
+        <div class="servicios__contenedor">
+            <h2 class="servicios__heading">Servicios</h2>
+            <div class="servicios__grid">
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/usuario-icono.svg" alt="icono sube">
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro">Tarifa Social</h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">Descuentos del 55 % en tus viajes</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/red-icono.svg" alt="icono sube">
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro">RED <span>SUBE</span></h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">Combiná distintos medios de transporte en AMBA y viajá con descuentos.</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/ubicacion-icono.svg" alt="icono sube">
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro">Puntos <span>SUBE</span></h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">Encontrá puntos de carga, centros de atención y Terminales Automáticas cercanas.</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/celular-icono-azul.svg" alt="icono sube">
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro"><span>SUBE</span> en tu celular</h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">Conocé todas nuestras apps.</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/empresa-icono.svg" alt="icono sube">
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro">Carga Empresas</h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">Sumá SUBE a tu empresa u oficina.</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+                <a class="servicio__enlace" href="#">
+                    <div class="servicio servicio--negro">
+                        <img class="servicio__imagen servicio__imagen--width" src="build/img/icono-visa-negocios.svg" alt="icono sube">
+                        <i class="icono-arg-visa-negocios"></i>
+                        <div class="servicio__texto servicio__texto--left">
+                            <h3 class="servicio__heading servicio__heading--negro"><span>SUBE</span> en tu comercio</h3>
+                            <p class="servicio__parrafo servicio__parrafo--negro">¿Querés cargar o vender la tarjeta?</p>
+                        </div>
+                    </div><!-- servicio -->
+                </a>
+            </div><!-- servicios__grid -->
+        </div><!-- servicios__contenedor -->
+    </main><!-- servicios -->
+
+    <section class="informacion">
+        <h2 class="informacion__heading">Información Útil</h2>
+        <div class="informacion__contenedor">
+            <div class="informacion__grid">
+                <div class="info">
+                    <a href="chivilcoy.html" class="info__enlace">
+                        <div class="info__mask">
+                            <picture>
+                                <source srcset="build/img/informacion1.avif" type="image/avif">
+                                <source srcset="build/img/informacion1.webp" type="image/webp">
+                                <img class="info__imagen" src="build/img/informacion1.jpg" alt="imagen informacion">
+                            </picture>
+                        </div>
+                        <h3 class="info__titulo">Ya podés viajar con SUBE en Chivilcoy</h3>
+                    </a>
+                </div><!-- info -->
+
+                <div class="info">
+                    <a href="jubilados.html" class="info__enlace">
+                        <div class="info__mask">
+                            <picture>
+                                <source srcset="build/img/informacion2.avif" type="image/avif">
+                                <source srcset="build/img/informacion2.webp" type="image/webp">
+                                <img class="info__imagen" src="build/img/informacion2.jpg" alt="imagen informacion">
+                            </picture>
+                        </div>
+                        <h3 class="info__titulo">Si sos una persona jubilada o pensionada podés acceder a la Tarifa Social</h3>
+                    </a>
+                </div><!-- info -->
+
+                <div class="info">
+                    <a href="cumple.html" class="info__enlace">
+                        <div class="info__mask">
+                            <picture>
+                                <source srcset="build/img/informacion3.avif" type="image/avif">
+                                <source srcset="build/img/informacion3.webp" type="image/webp">
+                                <img class="info__imagen" src="build/img/informacion3.jpg" alt="imagen informacion">
+                            </picture>
+                        </div>
+                        <h3 class="info__titulo">SUBE cumple 12 años</h3>
+                    </a>
+                </div><!-- info -->
+
+                <div class="info">
+                    <a href="punto.html" class="info__enlace">
+                        <div class="info__mask">
+                            <picture>
+                                <source srcset="build/img/informacion4.avif" type="image/avif">
+                                <source srcset="build/img/informacion4.webp" type="image/webp">
+                                <img class="info__imagen" src="build/img/informacion4.jpg" alt="imagen informacion">
+                            </picture>
+                        </div>
+                        <h3 class="info__titulo">Puntos de retiro inmediato para la compra online de tarjetas</h3>
+                    </a>
+                </div><!-- info -->
+            </div> <!-- informacion__grid -->
+
+            <div class="boton">
+                <a href="#" class="boton__link">Ver Todos</a>
+                <a href="#" class="boton__link">Contacto de Prensa</a>
+            </div>
+
+        </div><!-- informacion__contenedor-->
+    </section><!-- informacion -->
+
+    <section class="problema">
+        <div class="problema__contenedor">
+            <h2 class="problema__heading">¿Tuviste algún problema?</h2>
+            
+            <div class="problema__grid">
+                <a href="#" class="problema__link">Pérdida, Robo o Rotura</a>
+                <a href="#" class="problema__link">Punto de Obtención o Carga</a>
+                <a href="#" class="problema__link">Con una Terminal Automática</a>
+                <a href="#" class="problema__link">Libro de Quejas</a>
+                <a href="#" class="problema__link">Preguntas Frecuentes</a>
+            </div>
+
+            <div class="boton">
+                <a href="#" class="boton__link">Términos y Condiciones de <span>SUBE</span></a>
+                <a href="#" class="boton__link">SUBE en tu Ciudad</a>
+            </div>
+        </div><!-- problema__contenedor -->
+    </section><!-- problema -->
+
+    <section class="contacto">
+        <div class="contacto__contenedor">
+            <h2 class="contacto__heading">Contacto</h2>
+
+            <div class="contacto__grid">
+                <div class="contacto__numeros-redes">
+                    <div class="numero">
+                        <p class="numero__telefono"><b>Telefono:</b> 0800-777-<span>SUBE</span>(7823)</p>
+                    </div>
+                    <div class="redes">
+                        <h3 class="redes__heading">Redes sociales</h3>
+                        <div class="redes__flex">
+                            <a class="redes__link" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="redes__link" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="redes__link" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a class="redes__link" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- contacto__numeros-redes-->
+                
+                <div class="contacto__whatsapp">
+                    <a href="#" class="contacto__enlace">
+                        <i class="contacto__imagen fa-brands fa-whatsapp"></i>
+                        <p class="contacto__parrafo">Escribinos</p>
+                    </a>
+                </div>
+            </div>
+        </div><!-- contacto__contenedor -->
+    </section><!-- contacto -->
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__grid">
+                <div class="seccion">
+                    <h3 class="seccion__heading">Trámites</h3>
+                    <a class="seccion__link" href="#">Turnos</a>
+                    <a class="seccion__link" href="#">Trámites a distancia</a>
+                    <a class="seccion__link" href="#">Atención a la ciudadanía</a>
+                </div><!-- seccion -->
+
+                <div class="seccion">
+                    <h3 class="seccion__heading">Acerca De</h3>
+                    <a class="seccion__link" href="#">Nuestro país</a>
+                    <a class="seccion__link" href="#">Leyes argentinas</a>
+                    <a class="seccion__link" href="#">Organismos</a>
+                    <a class="seccion__link" href="#">Mapas del Estado</a>
+                </div><!-- seccion -->
+
+                <div class="seccion">
+                    <h3 class="seccion__heading">Acerca de Argentina.gob.ar</h3>
+                    <a class="seccion__link" href="#">Acerca de este sitio</a>
+                    <a class="seccion__link" href="#">Terminos y Condiciones</a>
+                    <a class="seccion__link" href="#">Sugerencias</a>
+                </div><!-- seccion -->
+            </div><!-- footer__grid -->
+
+            <div class="footer__logo">
+                <img class="footer__imagen" src="build/img/logo_primerolagente.svg" alt="logo primero la gente">
+                <a href="https://www.argentina.gob.ar/sube" target="_blank">
+                    <img class="footer__imagen footer__imagen--argentina" src="build/img/logo_argentina-blanco.svg" alt="logo argentina">
+                </a>
+            </div>
+        </div><!-- footer__contenedor -->
+        <p class="footer__copyright">Todos los derechos reservados 2022 &copy;.Design by <a class="footer__link" href="#">Agustin</a></p>
+    </footer><!-- footer -->
+<script src="build/js/app.js"></script>    
+</body>
+</html>

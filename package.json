@@ -1,0 +1,33 @@
+{
+  "name": "sube",
+  "version": "1.0.0",
+  "description": "Tarjeta Sube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sube",
+    "SASS",
+    "git",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "author": "Miguel Agustin Baiud",
+  "license": "ISC",
+  "devDependencies": {
+    "ar-poncho": "^2.0.252",
+    "autoprefixer": "^10.4.13",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1"
+  }
+}
